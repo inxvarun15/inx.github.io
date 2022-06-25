@@ -1,0 +1,255 @@
+body {
+    font-family: sans-serif;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: relative;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 8vh;
+    background-color: #f8f8ff;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li a {
+    display: flex;
+    text-decoration: none;
+    margin: 20px 50px 20px 100px;
+    font-size: 1.39em;
+}
+
+a:active {
+    color: purple;
+}
+
+.navbar ul h1 {
+    font-size: 2em;
+    margin-top: 15px;
+    letter-spacing: 10px;
+    word-spacing: 5px;
+}
+
+.navbar ul h2 a{
+    color: black;
+    position: relative;
+    top: 5px;
+    margin: 50px 0px 0px 70px;
+    text-decoration: none;
+}
+
+.cnt-header {
+    background: linear-gradient(to right, #00c9ff, #92fe9d);
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cnt-header h1 {
+    position: relative;
+    top: -100px;
+    margin-top: 100px;
+    font-size: 2.2em;
+}
+
+.cnt-header h2 {
+    position: relative;
+    top: -100px;
+    font-size: 4.4em;
+    margin-top: -5px;
+}
+
+.cnt-header h3 {
+    position: relative;
+    top: -100px;
+    font-size: 1.7em;
+    margin-top: -25px;
+}
+
+.maverick img{
+    height: 600px;
+    width: 380px;
+}
+
+.instinct img {
+    object-fit: cover;
+    height: 600px;
+    width: 380px;
+}
+
+.leader img {
+    height: 600px;
+    width: 380px;
+}
+
+.drax img {
+    object-fit: cover;
+    height: 600px;
+    width: 380px;
+}
+
+.container {
+    display: flex;
+}
+
+.nav2 {
+    background: linear-gradient(to right, #c2e59c, #64b3f4);
+    height: 7vh;
+    display: flex;
+    align-items: center;
+}
+
+.nav2 h1{
+    border: 1px solid black;
+    padding: 2px 10px 2px 10px;
+    margin: 0px 150px 0px 120px;
+}
+
+.chat1 {
+    border: 2px solid black;
+    height: 120px;
+    width: 300px;
+    position: relative;
+    top: 120px;
+    right: 30%;
+}
+
+.fa-user {
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    transform: scale(1.5);
+}
+
+.fa-message {
+    position: relative;
+    top: 100px;
+    right: 460px;
+    transform: scale(2);
+}
+
+.chat1 h3 {
+    position: relative;
+    top: -10px;
+    left: 40px;
+}
+
+#leader  {
+    color: white;
+    position: relative;
+    left: 100px;
+}
+
+.chat1 h2 {
+   position: relative;
+   top: -35%;
+   left: 65%;
+   font-size: 1.8em;
+   color: white;
+}
+
+.first {
+    font-size: 1.3em;
+    color: white;
+    position: relative;
+    left: 65%;
+    bottom: 30%;
+}
+
+.second {
+    font-size: 1.3em;
+    color: black;
+    position: relative;
+    bottom: 35%;
+    left: 5%;
+}
+
+@media (max-width:480px) and (min-width: 0px) {
+    .navbar ul li{
+        display: none;
+    }
+
+    .navbar {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+     
+    .navbar ul h1{
+        position: relative;
+        right: 5px;
+        color: black;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar ul h2 a{
+        display: none;
+    }
+
+    .cnt-header {
+        width: 100vw;
+    }
+
+    .cnt-header h1 {
+        position: relative;
+        right: 0px;
+        bottom: 100px;
+    }
+
+    .cnt-header h2 {
+        position: relative;
+        right: 0px;
+        bottom: 100px;
+    }
+
+    .cnt-header h3 {
+        position: relative;
+        right: 0px;
+        bottom: 100px;
+    }
+
+    .chat1 {
+        position: relative;
+        right: 0px;
+        top: 280px;
+    }
+
+    .nav2 {
+        display: flex;
+        flex-direction: column;
+        height: 210vh;
+        width: 22vw;
+    }
+
+    .nav2 h1 {
+        letter-spacing: 5px;
+        padding: 200px 0px 200px 0px;
+        position: relative;
+        left: 12px;
+        transform: rotate(-90deg);
+        border: none;
+    }
+
+    .container div img{
+        object-fit: cover;
+        position: relative;
+        bottom: 1882px;
+        left: 89.5px;
+        height: 52.3vh;
+        width: 78.2vw;
+    }
+
+    .container {
+        display: block;
+    }
+}
